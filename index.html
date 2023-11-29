@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>First Website</title>
+        
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="keyword" content="first, website, html, css" />
+        <meta name="author" content="Akash SOni" />
+        <meta http-equiv="refresh" content=30 />
+        <meta name="description" content="This is our first html page" />
+
+        <link rel="stylesheet" href="./assets/css/external.css" />
+        <script src="./assets/js/external.js"></script>
+
+        <style>/* css porperties go here */</style>
+        <script></script>
+    </head>
+    <body>
+        <!-- basic tags -->
+        <p>This is paragraph</p>
+        <div>This is a div tag</div>
+        <span>This is a span tag</span>
+        <br>
+        <a href="https://www.mongodb.com">MONGO DB</a>
+        <a href="./page2.html" target="" download="./page.html">Next page</a>
+
+        <div id="container">
+            <h1>Title</h1>
+            <h4>Sub Title</h4>
+            <p>Content</p>
+        </div>
+
+        <br><br><hr><br><br>
+        
+        <!-- semantic tags -->
+        <div></div>
+
+        <header></header>
+        <nav></nav>
+        <main></main>
+        <section></section>
+        <article></article>
+        <aside></aside>
+        <time></time>
+        <footer></footer>
+
+        <!-- multimedia tags -->
+        <img height="300px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/195px-HTML5_logo_and_wordmark.svg.png" />
+        <img height="300px" src="./html-logo.png" />
+        <audio controls>
+            <source src="./iphone-ringtone.mp3" />
+        </audio>
+        <video height="300px" controls >
+            <source src="./adobe-video.mp4"  />
+        </video>
+
+        <embed width="500" height="315" src="https://www.youtube.com/embed/RldtMOjv1UA?si=ts6a-fb78ZCYcMBg" />
+        <iframe width="500" height="315" src="https://www.youtube.com/embed/RldtMOjv1UA?si=ts6a-fb78ZCYcMBg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe height="500px" width="400px" src="https://en.wikipedia.org/wiki/HTML5"></iframe>
+        
+        <br><br><hr><br><br>
+
+        <!-- formatting tags -->
+        <b>Bold</b><i>italic</i><u>Underline</u>
+        <strong>Strong</strong><em>Emplasis</em><ins>Insert</ins>
+
+        <marquee direction="up"><center><p><mark>HTML</mark> stands for Hypertext <del>Marking</del> <ins>Markup</ins> Language</p></center></marquee>
+
+        <sub>subscript</sub>Normal Text<sup>Superscript</sup>
+        
+        <!-- list tags -->
+        <ol type="i">
+            <li>List Item</li>
+            <li>List Item</li>
+            <li>List Item</li>
+            <li>List Item</li>
+            <li>List Item</li>
+            <li>List Item</li>
+        </ol>
+
+        <ul type="square">
+            <li>List Item</li>
+            <li>List Item</li>
+            <li>List Item</li>
+            <li>List Item</li>
+            <li>List Item</li>
+            <li>List Item</li>
+        </ul>
+       
+        <dl>
+            <dt>Extensible Markup Language:</dt>
+            <dd>Extensible Markup Language (XML) is a markup language that provides rules to define any data. Unlike other programming languages, XML cannot perform computing operations by itself.</dd>
+        </dl>
+
+        <!-- heading tags -->
+        <h1>Website Title</h1>
+        <h2>Section title</h2>
+        <h3>Website Subtitle</h3>
+        <h4>Section Subtitle</h4>
+        <h5>More titles</h5>
+        <h6>More titles</h6>
+
+        <!-- table tags -->
+        <style>
+            td,th{
+                border: 2px solid red;
+            }
+        </style>
+        <table border="2px">
+            <caption>Student List</caption>
+            <colgroup>
+                <col span="" style="background-color:bisque;" />
+                <col span="2" style="background-color:rgb(196, 255, 196);" />
+            </colgroup>
+            <thead>
+                <tr>
+                    <th rowspan="2">Usno.</th>
+                    <th colspan="2">Student Name</th>
+                    <th rowspan="2">Address</th>
+                    <th rowspan="2">Course</th>
+                </tr>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>32DFFFE34543</td>
+                    <td>Akash</td>
+                    <td>Soni</td>
+                    <td>Bangalore</td>
+                    <td>Web Development</td>
+                </tr>
+                <tr>
+                    <td>32DFFFE34543</td>
+                    <td>Akash</td>
+                    <td>Soni</td>
+                    <td>Bangalore</td>
+                    <td>Web Development</td>
+                </tr>
+                <tr>
+                    <td>32DFFFE34543</td>
+                    <td>Akash</td>
+                    <td>Soni</td>
+                    <td>Bangalore</td>
+                    <td>Web Development</td>
+                </tr>
+                <tr>
+                    <td>32DFFFE34543</td>
+                    <td>Akash</td>
+                    <td>Soni</td>
+                    <td>Bangalore</td>
+                    <td>Web Development</td>
+                </tr>
+                <tr>
+                    <td>32DFFFE34543</td>
+                    <td>Akash</td>
+                    <td>Soni</td>
+                    <td>Bangalore</td>
+                    <td>Web Development</td>
+                </tr>
+            </tbody>
+            <tfoot>
+
+            </tfoot>
+        </table>
+
+        <!-- form tags -->
+        <form>
+            <label></label>
+            <input type="text" />
+            <textarea></textarea>
+            <button></button>
+        </form>
+
+        <form method="post" action="newsletter.php">
+            <fieldset>
+                <legend>Form Tags:</legend>
+                <label for="email_inp">Email Address:</label>
+                <input type="email" id="email_inp" name="newsletter-email" value="default@gmail.com" placeholder="e.g., johndoe@gmail.com">
+                <button type="submit">Subscribe to Newsletter</button>
+            </fieldset>
+        </form>
+
+        <br><br><br>
+
+
+        <form>
+            <fieldset>
+                <legend>HTML Input Tags:</legend>
+                
+                <!--text fields-->
+                <input class="textbox" type="text" name="name_inp" id="name_txt" class="textbox" value="Hello" required/>
+                <input class="textbox" type="url" placeholder="Enter a URL"/>
+                <input class="textbox" type="search" />
+                <input class="textbox" type="password" />
+                <input class="textbox" id="number-input" type="number" />
+                <input class="textbox" id="email-input" type="email" />
+                <textarea class="textbox" rows="10" cols="50"></textarea><br><br>
+    
+                <!-- date/time -->
+                <input id="date-picker" type="date" name="date">
+                <input type="datetime-local">
+                <input type="datetime" >
+                <input type="month">
+                <input type="week">
+                <input type="time">
+                <br><br>
+    
+                <!--check box-->
+                <input name="chk1" type="checkbox"><label>Option 1</label>
+                <input name="chk2" type="checkbox"><label>Option 2</label>
+    
+                <!-- radiobtn -->
+                <input name="gender1" type="radio" value="Male"><label>Male</label>
+                <input name="gender2" type="radio" value="female"><label>Female</label>
+                <input name="gender3" type="radio" value="others"><label>Others</label>
+    
+                <!-- selectors -->
+                <input type="color" name="color">
+                <input type="file">
+                <input type="image" src="list.png" alt="Submit" width="48" height="48">
+                <input type="range" name="range" min="0" max="10">
+    
+                <input type="button" value="CLICK" />
+                <input type="submit" value="SUBMIT"/>
+                <input type="reset" />
+    
+                <button type="submit">Submit LOGIN</button>
+                <button type="menu">MENU BUTTON</button>
+                <button type="button">Button</button>
+                <button type="reset">Reset</button>
+            </fieldset>
+        </form>
+
+    </body>
+</html>
+
